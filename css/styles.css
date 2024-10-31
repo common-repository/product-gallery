@@ -1,0 +1,28 @@
+/* #thumbnails { display: block; margin-bottom: 10px; }
+#thumbnails img { 
+	padding:5px; 
+    display: inline;
+    margin: 5px;
+    border: 1px solid #e5e5e5;
+	box-shadow: 4px 4px 8px #656465;
+}
+#thumbnails ul li { float: left; margin-right: 26px; margin-bottom: 12px; }
+*/
+/** clearfix **/
+.clearfix:after { content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0; }
+.clearfix { display: inline-block; }
+ 
+ 
+div.cat_text { 
+   position: relative; 
+   width: 100%; /* for IE 6 */
+}
+
+.cat_text img
+{
+	border: 1px solid #ccc;
+	padding: 5px;
+	box-shadow: 5px 5px 10px #ccc; 
+	margin-bottom:10px; 
+	margin-right:10px;
+}
